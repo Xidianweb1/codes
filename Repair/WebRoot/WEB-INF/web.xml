@@ -10,7 +10,313 @@
   </description>
 	
 
+	<filter>
+		<filter-name>encoding</filter-name>
+		<filter-class>org.zd.filterdemo.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>charset</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+    
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.LoginServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>NewUsertypeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewUsertypeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUsertypeServlet</servlet-name>
+		<url-pattern>/NewUsertypeServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FindUsertypeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindUsertypeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindUsertypeServlet</servlet-name>
+		<url-pattern>/FindUsertypeServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateUsertypeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.UpdateUsertypeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateUsertypeServlet</servlet-name>
+		<url-pattern>/UpdateUsertypeServlet</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>MyUsertypeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.MyUsertypeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyUsertypeServlet</servlet-name>
+		<url-pattern>/MyUsertypeServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>FindUserrepServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindUserrepServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindUserrepServlet</servlet-name>
+		<url-pattern>/FindUserrepServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateUserrepServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.UpdateUserrepServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateUserrepServlet</servlet-name>
+		<url-pattern>/UpdateUserrepServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewUserrepServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewUserrepServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUserrepServlet</servlet-name>
+		<url-pattern>/NewUserrepServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>NewUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewUsercltServlet</servlet-name>
+		<url-pattern>/NewUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindUsercltServlet</servlet-name>
+		<url-pattern>/FindUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.UpdateUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateUsercltServlet</servlet-name>
+		<url-pattern>/UpdateUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MyUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.MyUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyUsercltServlet</servlet-name>
+		<url-pattern>/MyUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateMyUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.UpdateMyUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateMyUsercltServlet</servlet-name>
+		<url-pattern>/UpdateMyUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyFindUsercltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.MyFindUsercltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyFindUsercltServlet</servlet-name>
+		<url-pattern>/MyFindUsercltServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MyFindGoodsServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.MyFindGoodsServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyFindGoodsServlet</servlet-name>
+		<url-pattern>/MyFindGoodsServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindGoodsServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindGoodsServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindGoodsServlet</servlet-name>
+		<url-pattern>/FindGoodsServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyNewGoodsServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.MyNewGoodsServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MyNewGoodsServlet</servlet-name>
+		<url-pattern>/MyNewGoodsServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewMyGoodsServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewMyGoodsServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewMyGoodsServlet</servlet-name>
+		<url-pattern>/NewMyGoodsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>FindUGoodsServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindUGoodsServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindUGoodsServlet</servlet-name>
+		<url-pattern>/FindUGoodsServlet</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>FindArrangeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindArrangeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindArrangeServlet</servlet-name>
+		<url-pattern>/FindArrangeServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindArrGooServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindArrGooServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindArrGooServlet</servlet-name>
+		<url-pattern>/FindArrGooServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindArrCltServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindArrCltServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindArrCltServlet</servlet-name>
+		<url-pattern>/FindArrCltServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindArrRepServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindArrRepServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindArrRepServlet</servlet-name>
+		<url-pattern>/FindArrRepServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FindArGoServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.FindArGoServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FindArGoServlet</servlet-name>
+		<url-pattern>/FindArGoServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewArrServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewArrServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewArrServlet</servlet-name>
+		<url-pattern>/NewArrServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>NewArrangeServlet</servlet-name>
+		<servlet-class>
+			org.zd.mvcdemo.servlet.NewArrangeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewArrangeServlet</servlet-name>
+		<url-pattern>/NewArrangeServlet</url-pattern>
+	</servlet-mapping>
+
 	
 	    <jsp-config>
 		<taglib>
