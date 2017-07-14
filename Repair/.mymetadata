@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Repair"
+  id="myeclipse.1461375120459"
+  context-root="/Repair"
+  j2ee-spec="5.0"
+  archive="Repair.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
