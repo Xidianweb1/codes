@@ -30,7 +30,6 @@ public class FindArGoServlet extends HttpServlet {
 			
 	}
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws ServletException,IOException{
-		System.out.print("23424");
 		this.doPost(req,resp) ;
 	}
 
