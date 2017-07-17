@@ -17,7 +17,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 
 <form  method="post" action="NewUserrepServlet" style="text-align:center" style="vertical-align:middle" style="font-size:24px" >
-<br/><br/>
+<br/><br/><!--换行符一下是用表格布局展示维修人员的信息>
 <table border="1" bgcolor="#FFFFCC" align="center">
     <tr height="20">
       <th colspan="4" class="aa" >新增维修工程师信息</th>
