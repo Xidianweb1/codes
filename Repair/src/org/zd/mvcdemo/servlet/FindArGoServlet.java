@@ -30,7 +30,7 @@ public class FindArGoServlet extends HttpServlet {
 			
 	}
 	public void doGet(HttpServletRequest req,HttpServletResponse resp) throws ServletException,IOException{
-		this.doPost(req,resp) ;    //Post......
+		this.doPost(req,resp) ;   
 	}
 
 
