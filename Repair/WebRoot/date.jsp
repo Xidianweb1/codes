@@ -10,9 +10,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <base href="<%=basePath%>">
 <meta charset="UTF-8">
 <title></title>
-//javaScript function函数用来获取当前系统时间
+
 <script type="text/javascript">
-     function realSysTime(clock){
+     function realSysTime(clock){                 //javaScript function函数用来获取当前系统时间
 		 var now = new Date();            //创建Date对象
 		 var year = now.getFullYear();    //获取年份
 		 var month = now.getMonth();      //获取月份
